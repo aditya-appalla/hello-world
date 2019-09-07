@@ -66,7 +66,8 @@ print("EMAIL ADDRESSES")
 print("----------------------------")
 
 # extracting email address from the basket pdf
-for page in text_extractor("C:\\Users\\SatyaAppalla\\Downloads\\ShoppingBasket.pdf"):
+# enter the actual file path of the pdf below
+for page in text_extractor("XXX"):
    email = re.findall("([^@|\s]+@[^@]+\.[^@|\s]+)", page)
    if email:
         print(email[0].split()[0].strip(';'))
@@ -103,7 +104,8 @@ for chunk in doc.noun_chunks:
     tokens = [token.text for token in nlp_text if not token.is_stop]
     
     # reading the csv file
-    data = pd.read_csv("C:\\Users\\SatyaAppalla\\Downloads\\keywords.csv") 
+    # enter the actual file path of the .csv below
+    data = pd.read_csv("XXX") 
   
     # extract values
     skills = list(data.columns.values)
