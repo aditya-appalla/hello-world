@@ -15,6 +15,19 @@
       The customers have the option of uploading their design related queries as a .pdf or .doc or .docx document. We read their inputs and convert it to plain text using two python modules – pdfminer and doc2text.
     </li>
   </ul>
+  <li>Install pfdminer</li>
+  <li>Extract text from PDF</li>
+    <ul>
+      <li>Iterate over all pages of the .pdf document.</li>
+      <li>Create a resource manager.</li>
+      <li>Create a file handle.</li>
+      <li>Create a text converter object.</li>
+      <li>Create a page interpreter.</li>
+      <li>Process current page.</li>
+      <li>Extract text</li>
+      <li>Close the file handle</li>
+    </ul>  
+  <li>Extract text from .doc or .docx</li>
 </ul>  
 
 
@@ -23,18 +36,6 @@
 
 
 
-•	Install pfdminer:
-•	Install doc2text:
-•	Extract text from PDF
-o	Iterate over all pages of the .pdf document.
-o	Create a resource manager.
-o	Create a file handle.
-o	Create a text converter object.
-o	Create a page interpreter.
-o	Process current page.
-o	Extract text
-o	Close the file handle
-•	Extract text from .doc or .docx
 
 Reading the customer details
 •	Extract the customer’s first and last name leveraging spaCy – an industrial strength natural language processing module by leveraging ‘Entity Recognition’.
