@@ -1,5 +1,5 @@
 <p><strong>Synopsis</strong></p>
-<p>In this experimental endeavor, the customers are provided with an option to upload their module designs. The designs are then broken down into the components within it (Eg: Chip SMD resistor &ndash; 20ohm; Film capacitor - <a href="https://uk.farnell.com/c/passive-components/capacitors/film-capacitors/motor-run-motor-start-capacitors?capacitance=50uf">50&micro;F</a> ). Each component is then grouped by the quantity and rating required in the design and the result is then fed into the search engine &ndash; Endeca. The results of the search engine comprises of products which are priced as per the customer contract and sent back to the customers for them to reveiew and order.</p>
+<p>In this experimental endeavor, the users are provided with an option to upload their module designs. The designs are then broken down into the components within it (Eg: Chip SMD resistor &ndash; 20ohm; Film capacitor - <a href="https://uk.farnell.com/c/passive-components/capacitors/film-capacitors/motor-run-motor-start-capacitors?capacitance=50uf">50&micro;F</a> ). Each component is then grouped by the quantity and rating required in the design and the result is then fed into the search engine &ndash; Endeca. The results of the search engine comprises of products which are priced as per the customer contract and sent back to the customers for them to reveiew and order.</p>
 <p><strong><u>&nbsp;</u></strong></p>
 <p><strong><u>Design Steps</u></strong></p>
 <p><strong>Reading the customer input</strong></p>
@@ -67,7 +67,7 @@
 </li>
 <li>Pass the extracted details as search keywords into the search engine.</li>
 <li>Retrieve results off the search engine.</li>
-<li>Package the results and send it back to the customer for them to convert this into a purchase.</li>
+<li>Package the results and send it back to the users for them to convert this into a purchase.</li>
 </ul>
 </li>
 </ul>
