@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
 Synopsis
 In this experimental endeavor, the customers are provided with an option to upload their module designs. The designs are then broken down into the components within it (Eg: Chip SMD resistor – 20ohm; Film capacitor - 50µF ). Each component is then grouped by the quantity and rating required in the design and the result is then fed into the search engine – Endeca. The results of the search engine comprises of products which are priced as per the customer contract and sent back to the customers for them to reveiew and order.
 
