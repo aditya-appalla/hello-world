@@ -2,8 +2,8 @@
 <p>In this experimental endeavor, I aim to provide the users with an option to upload their module designs in the form of unstructured documents. The designs are then broken down into the components within it (Eg: Chip SMD resistor &ndash; 20ohm; Film capacitor). Each component is then grouped by the quantity and rating required by the design and the result is then fed into the search engine &ndash; Endeca. The results of the search engine comprises of products which are priced as per the customer contract and sent back to the customers for them to reveiew and order.</p>
 <p><strong><u>&nbsp;</u></strong></p>
 <p><strong><u>Design Steps</u></strong></p>
-<p><strong>Reading the customer input</strong></p>
-<p>The customers have the option of uploading their design related queries as a .pdf or .doc or .docx document. We read their inputs and convert it to plain text using two python modules &ndash; pdfminer and doc2text.</p>
+<p><strong>Reading the user input</strong></p>
+<p>The users have the option of uploading their design related queries as a .pdf or .doc or .docx document. We read their inputs and convert it to plain text using two python modules &ndash; pdfminer and doc2text.</p>
 <ul>
 <li>Install pfdminer:</li>
 <li>Install doc2text:</li>
@@ -22,9 +22,9 @@
 <li>Extract text from .doc or .docx</li>
 </ul>
 <p><strong>&nbsp;</strong></p>
-<p><strong>Reading the customer details</strong></p>
+<p><strong>Reading the user details</strong></p>
 <ul>
-<li>Extract the customer&rsquo;s first and last name leveraging spaCy &ndash; an industrial strength natural language processing module by leveraging &lsquo;Entity Recognition&rsquo;.
+<li>Extract the user&rsquo;s first and last name leveraging spaCy &ndash; an industrial strength natural language processing module by leveraging &lsquo;Entity Recognition&rsquo;.
 <ul>
 <li>Install spaCy</li>
 <li>Download the pre-trained module &ndash; en_core_web_sm.</li>
@@ -36,8 +36,8 @@
 <li>Return the matched names as span</li>
 </ul>
 </li>
-<li>Extract the customer phone number (leveraging regular expression)</li>
-<li>Extract the customer email address (leveraging a regex which reads an alphanumeric string immediately followed by an &lsquo;@&rsquo; which is then followed by a string and then a &lsquo;.&rsquo; and finally another string. Eg: "([^@|\s]<a href="mailto:+@[%5e@]+\.%5b%5e@|\s">+@[^@]+\.[^@|\s</a>]+)</li>
+<li>Extract the user phone number (leveraging regular expression)</li>
+<li>Extract the user email address (leveraging a regex which reads an alphanumeric string immediately followed by an &lsquo;@&rsquo; which is then followed by a string and then a &lsquo;.&rsquo; and finally another string. Eg: "([^@|\s]<a href="mailto:+@[%5e@]+\.%5b%5e@|\s">+@[^@]+\.[^@|\s</a>]+)</li>
 <li>Extracting the design inputs
 <ul>
 <li>A pre-defined data is already provided by the business teams for comparison (a .csv file)</li>
