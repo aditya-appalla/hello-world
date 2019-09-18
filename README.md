@@ -1,1 +1,1 @@
-Why a text editor
+#Synopsis
