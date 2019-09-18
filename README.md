@@ -8,14 +8,21 @@
 </p>
 
 <h2>Design Steps</h2>
+<ul>
+  <li>Reading the customer input</li>
+  <ul>
+    <li>
+      The customers have the option of uploading their design related queries as a .pdf or .doc or .docx document. We read their inputs and convert it to plain text using two python modules – pdfminer and doc2text.
+    </li>
+  </ul>
+</ul>  
+
 
 </body>
 </html>
 
 
-Design Steps
-Reading the customer input
-The customers have the option of uploading their design related queries as a .pdf or .doc or .docx document. We read their inputs and convert it to plain text using two python modules – pdfminer and doc2text.
+
 •	Install pfdminer:
 •	Install doc2text:
 •	Extract text from PDF
